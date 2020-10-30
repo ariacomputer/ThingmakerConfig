@@ -21,7 +21,7 @@
  */
 #pragma once
 
-#define CONFIG_EXAMPLES_DIR "Creality/Ender-5 Pro/CrealityV1"
+#define CONFIG_EXAMPLES_DIR "Creality/Ender-5 Pro/Thingmaker"
 
 /**
  * Configuration_adv.h
