@@ -37,7 +37,7 @@
  *
  * Advanced settings can be found in Configuration_adv.h
  */
-#define CONFIGURATION_H_VERSION 020009
+#define CONFIGURATION_H_VERSION 2020103004
 
 //===========================================================================
 //============================= Getting Started =============================
@@ -759,7 +759,7 @@
  */
 // ARIA-14: Updated 2020-10-30
 //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 80, 80, 800, 93 }
-#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.72, 79.95, 797.61, 99.25 }
+#define DEFAULT_AXIS_STEPS_PER_UNIT   { 79.68, 79.83, 797.61, 99.25 }
 
 /**
  * Default Max Feed Rate (mm/s)
