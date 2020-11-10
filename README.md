@@ -7,6 +7,7 @@ This repository contains Marlin Firmware configuration files for the Thingmakerâ
 * BLTouch v3.1
 * TFT35 display
 * Marlin v2.0.7.2
+* TriangleWeb filament runout sensor
 
 ## Other Changes Needed
 * marlin\src\hal\stm32f1\inc\sanitycheck.h: Comment out line 52: #error "NEOPIXEL_LED (Adafruit NeoPixel) is not supported for HAL/STM32F1. Comment out this line to proceed at your own risk!"
