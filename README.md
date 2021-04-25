@@ -30,14 +30,18 @@ This repository contains configuration files for Thingmaker™.
     ```
 
 * Install Klipper, Moonraker and Fluidd.
-* Download this repo:
+* Download the ThingmakerConfig repo:
 
     ```shell
     cd ~
     git clone git@github.com:ariacomputer/ThingmakerConfig.git
     ```
 
-* Copy `moonraker.conf` and `printer.cfg` from the ThingmakerConfig directory to `~/klipper_config`, overwriting the existing files.
+* Copy the klipper and Moonraker config files over the existing files:
+
+    ```shell
+    cp ~/ThingmakerConfig/moonraker.conf ~/ThingmakerConfig/printer.cfg ~/klipper_config
+    ```
 * Restart Moonraker and Klipper (this can be done from Fluidd).
 
 ### Older Marlin Setup
